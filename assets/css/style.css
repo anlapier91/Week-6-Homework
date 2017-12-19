@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+	margin: auto 0;
+}
+
+
+#wrapper {
+width: 100%;
+margin: auto 0;
+}
+
+@media (min-width:768px) { /* don't break navbar on small screen */
+    #nav_center {
+        width: 700px /* need to found your width according to your entry*/
+    }
+}
